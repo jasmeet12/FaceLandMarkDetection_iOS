@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D18BFE6211038EA002DAC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18BFE5211038EA002DAC25 /* AppDelegate.swift */; };
+		5D18BFE8211038EA002DAC25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18BFE7211038EA002DAC25 /* ViewController.swift */; };
+		5D18BFEB211038EA002DAC25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D18BFE9211038EA002DAC25 /* Main.storyboard */; };
+		5D18BFED211038F3002DAC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D18BFEC211038F3002DAC25 /* Assets.xcassets */; };
+		5D18BFF0211038F3002DAC25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D18BFEE211038F3002DAC25 /* LaunchScreen.storyboard */; };
+		5D18BFFB211038F3002DAC25 /* FaceVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18BFFA211038F3002DAC25 /* FaceVisionTests.swift */; };
+		5D18C006211038F3002DAC25 /* FaceVisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18C005211038F3002DAC25 /* FaceVisionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D18BFF7211038F3002DAC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D18BFDA211038EA002DAC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D18BFE1211038EA002DAC25;
+			remoteInfo = FaceVision;
+		};
+		5D18C002211038F3002DAC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D18BFDA211038EA002DAC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D18BFE1211038EA002DAC25;
+			remoteInfo = FaceVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D18BFE2211038EA002DAC25 /* FaceVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D18BFE5211038EA002DAC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D18BFE7211038EA002DAC25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D18BFEA211038EA002DAC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D18BFEC211038F3002DAC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D18BFEF211038F3002DAC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D18BFF1211038F3002DAC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D18BFF6211038F3002DAC25 /* FaceVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D18BFFA211038F3002DAC25 /* FaceVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceVisionTests.swift; sourceTree = "<group>"; };
+		5D18BFFC211038F3002DAC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D18C001211038F3002DAC25 /* FaceVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceVisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D18C005211038F3002DAC25 /* FaceVisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceVisionUITests.swift; sourceTree = "<group>"; };
+		5D18C007211038F3002DAC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D18BFDF211038EA002DAC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18BFF3211038F3002DAC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18BFFE211038F3002DAC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D18BFD9211038EA002DAC25 = {
+			isa = PBXGroup;
+			children = (
+				5D18BFE4211038EA002DAC25 /* FaceVision */,
+				5D18BFF9211038F3002DAC25 /* FaceVisionTests */,
+				5D18C004211038F3002DAC25 /* FaceVisionUITests */,
+				5D18BFE3211038EA002DAC25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D18BFE3211038EA002DAC25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D18BFE2211038EA002DAC25 /* FaceVision.app */,
+				5D18BFF6211038F3002DAC25 /* FaceVisionTests.xctest */,
+				5D18C001211038F3002DAC25 /* FaceVisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D18BFE4211038EA002DAC25 /* FaceVision */ = {
+			isa = PBXGroup;
+			children = (
+				5D18BFE5211038EA002DAC25 /* AppDelegate.swift */,
+				5D18BFE7211038EA002DAC25 /* ViewController.swift */,
+				5D18BFE9211038EA002DAC25 /* Main.storyboard */,
+				5D18BFEC211038F3002DAC25 /* Assets.xcassets */,
+				5D18BFEE211038F3002DAC25 /* LaunchScreen.storyboard */,
+				5D18BFF1211038F3002DAC25 /* Info.plist */,
+			);
+			path = FaceVision;
+			sourceTree = "<group>";
+		};
+		5D18BFF9211038F3002DAC25 /* FaceVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D18BFFA211038F3002DAC25 /* FaceVisionTests.swift */,
+				5D18BFFC211038F3002DAC25 /* Info.plist */,
+			);
+			path = FaceVisionTests;
+			sourceTree = "<group>";
+		};
+		5D18C004211038F3002DAC25 /* FaceVisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D18C005211038F3002DAC25 /* FaceVisionUITests.swift */,
+				5D18C007211038F3002DAC25 /* Info.plist */,
+			);
+			path = FaceVisionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D18BFE1211038EA002DAC25 /* FaceVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D18C00A211038F3002DAC25 /* Build configuration list for PBXNativeTarget "FaceVision" */;
+			buildPhases = (
+				5D18BFDE211038EA002DAC25 /* Sources */,
+				5D18BFDF211038EA002DAC25 /* Frameworks */,
+				5D18BFE0211038EA002DAC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceVision;
+			productName = FaceVision;
+			productReference = 5D18BFE2211038EA002DAC25 /* FaceVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D18BFF5211038F3002DAC25 /* FaceVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D18C00D211038F3002DAC25 /* Build configuration list for PBXNativeTarget "FaceVisionTests" */;
+			buildPhases = (
+				5D18BFF2211038F3002DAC25 /* Sources */,
+				5D18BFF3211038F3002DAC25 /* Frameworks */,
+				5D18BFF4211038F3002DAC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D18BFF8211038F3002DAC25 /* PBXTargetDependency */,
+			);
+			name = FaceVisionTests;
+			productName = FaceVisionTests;
+			productReference = 5D18BFF6211038F3002DAC25 /* FaceVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D18C000211038F3002DAC25 /* FaceVisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D18C010211038F3002DAC25 /* Build configuration list for PBXNativeTarget "FaceVisionUITests" */;
+			buildPhases = (
+				5D18BFFD211038F3002DAC25 /* Sources */,
+				5D18BFFE211038F3002DAC25 /* Frameworks */,
+				5D18BFFF211038F3002DAC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D18C003211038F3002DAC25 /* PBXTargetDependency */,
+			);
+			name = FaceVisionUITests;
+			productName = FaceVisionUITests;
+			productReference = 5D18C001211038F3002DAC25 /* FaceVisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D18BFDA211038EA002DAC25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jasmeet Kaur";
+				TargetAttributes = {
+					5D18BFE1211038EA002DAC25 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					5D18BFF5211038F3002DAC25 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 5D18BFE1211038EA002DAC25;
+					};
+					5D18C000211038F3002DAC25 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 5D18BFE1211038EA002DAC25;
+					};
+				};
+			};
+			buildConfigurationList = 5D18BFDD211038EA002DAC25 /* Build configuration list for PBXProject "FaceVision" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D18BFD9211038EA002DAC25;
+			productRefGroup = 5D18BFE3211038EA002DAC25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D18BFE1211038EA002DAC25 /* FaceVision */,
+				5D18BFF5211038F3002DAC25 /* FaceVisionTests */,
+				5D18C000211038F3002DAC25 /* FaceVisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D18BFE0211038EA002DAC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D18BFF0211038F3002DAC25 /* LaunchScreen.storyboard in Resources */,
+				5D18BFED211038F3002DAC25 /* Assets.xcassets in Resources */,
+				5D18BFEB211038EA002DAC25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18BFF4211038F3002DAC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18BFFF211038F3002DAC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D18BFDE211038EA002DAC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D18BFE8211038EA002DAC25 /* ViewController.swift in Sources */,
+				5D18BFE6211038EA002DAC25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18BFF2211038F3002DAC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D18BFFB211038F3002DAC25 /* FaceVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18BFFD211038F3002DAC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D18C006211038F3002DAC25 /* FaceVisionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D18BFF8211038F3002DAC25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D18BFE1211038EA002DAC25 /* FaceVision */;
+			targetProxy = 5D18BFF7211038F3002DAC25 /* PBXContainerItemProxy */;
+		};
+		5D18C003211038F3002DAC25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D18BFE1211038EA002DAC25 /* FaceVision */;
+			targetProxy = 5D18C002211038F3002DAC25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D18BFE9211038EA002DAC25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D18BFEA211038EA002DAC25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D18BFEE211038F3002DAC25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D18BFEF211038F3002DAC25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D18C008211038F3002DAC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D18C009211038F3002DAC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D18C00B211038F3002DAC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVAFYVHN78;
+				INFOPLIST_FILE = FaceVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasmeet.FaceVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D18C00C211038F3002DAC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVAFYVHN78;
+				INFOPLIST_FILE = FaceVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasmeet.FaceVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D18C00E211038F3002DAC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVAFYVHN78;
+				INFOPLIST_FILE = FaceVisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasmeet.FaceVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceVision.app/FaceVision";
+			};
+			name = Debug;
+		};
+		5D18C00F211038F3002DAC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVAFYVHN78;
+				INFOPLIST_FILE = FaceVisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasmeet.FaceVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceVision.app/FaceVision";
+			};
+			name = Release;
+		};
+		5D18C011211038F3002DAC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVAFYVHN78;
+				INFOPLIST_FILE = FaceVisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasmeet.FaceVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceVision;
+			};
+			name = Debug;
+		};
+		5D18C012211038F3002DAC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVAFYVHN78;
+				INFOPLIST_FILE = FaceVisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasmeet.FaceVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceVision;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D18BFDD211038EA002DAC25 /* Build configuration list for PBXProject "FaceVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D18C008211038F3002DAC25 /* Debug */,
+				5D18C009211038F3002DAC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D18C00A211038F3002DAC25 /* Build configuration list for PBXNativeTarget "FaceVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D18C00B211038F3002DAC25 /* Debug */,
+				5D18C00C211038F3002DAC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D18C00D211038F3002DAC25 /* Build configuration list for PBXNativeTarget "FaceVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D18C00E211038F3002DAC25 /* Debug */,
+				5D18C00F211038F3002DAC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D18C010211038F3002DAC25 /* Build configuration list for PBXNativeTarget "FaceVisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D18C011211038F3002DAC25 /* Debug */,
+				5D18C012211038F3002DAC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D18BFDA211038EA002DAC25 /* Project object */;
+}
